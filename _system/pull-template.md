@@ -10,13 +10,13 @@ week: {YYYY-Www}
 
 <!--
 RULES FOR THE ROUTINE (do not include this block in the output)
+- These are RESEARCH NOTES, not the newsletter. Record facts, don't write polished prose.
 - Include as many stories per section as are genuinely important, no filler. If a section has nothing good, write "_Nothing notable this pull._"
-- Write for a general, non-technical audience. Explain any technical term in a few words right where it appears
-  (e.g. "Terminal-Bench, a test of how well an AI can operate a computer by typing commands").
-- "What this means" = what it unlocks or changes for regular people or businesses. No hype words.
+- Key facts: 2–4 short bullets taken from the article (what happened, who, numbers, dates). Put them in your own words. Don't copy sentences.
+- Jargon: if the story uses a technical term, explain it in a few words (e.g. "Terminal-Bench = a test of how well an AI can operate a computer by typing commands"). Write "none" if there isn't one.
 - Only stories published in the last 3–4 days.
 - Skip anything already covered in earlier pulls this week (read the other files in this week's folder).
-- Every story MUST have a real link to the original article. No link = don't include it.
+- Every story MUST have a real link that you opened. No link = don't include it.
 - Model launches: link the lab's own post or model card, not a news write-up.
 - Tag every story [anchor] (from sources.md) or [discovered] (found by web search).
 - Discovered stories need a reputable outlet or a second source confirming them.
@@ -25,49 +25,50 @@ RULES FOR THE ROUTINE (do not include this block in the output)
 -->
 
 ## Headlines
-- [ ] keep · **{Headline}**: {one sentence}. [{Outlet}]({url}) `[anchor]`
+- [ ] keep · **{Headline}**. [{Outlet}]({url}) `[anchor]`
 
 ## Technical: frontier models
-- [ ] keep · **{Headline}**
-  - **Summary:** {1–2 plain sentences, jargon explained}
-  - **What this means:** {what it unlocks or changes, plain language}
-  - [{Outlet}]({url}) `[anchor]`
+- [ ] keep · **{Headline}**: {Outlet}, {publish date} `[anchor]`
+  - {key fact}
+  - {key fact}
+  - Jargon: {term = plain explanation, or "none"}
+  - {url}
 
 ## Technical: hardware
-- [ ] keep · **{Headline}**
-  - **Summary:** {1–2 plain sentences, jargon explained}
-  - **What this means:** {what it unlocks or changes, plain language}
-  - [{Outlet}]({url}) `[anchor]`
+- [ ] keep · **{Headline}**: {Outlet}, {publish date} `[anchor]`
+  - {key fact}
+  - Jargon: {term = plain explanation, or "none"}
+  - {url}
 
 ## Jobs
-- [ ] keep · **{Headline}**
-  - **Summary:** {1–2 plain sentences, jargon explained}
-  - **What this means:** {what it unlocks or changes, plain language}
-  - [{Outlet}]({url}) `[anchor]`
+- [ ] keep · **{Headline}**: {Outlet}, {publish date} `[anchor]`
+  - {key fact}
+  - Jargon: {term = plain explanation, or "none"}
+  - {url}
 
 ## Social impact: math and science
-- [ ] keep · **{Headline}**
-  - **Summary:** {1–2 plain sentences, jargon explained}
-  - **What this means:** {what it unlocks or changes, plain language}
-  - [{Outlet}]({url}) `[anchor]`
+- [ ] keep · **{Headline}**: {Outlet}, {publish date} `[anchor]`
+  - {key fact}
+  - Jargon: {term = plain explanation, or "none"}
+  - {url}
 
 ## Social impact: data centers
-- [ ] keep · **{Headline}**
-  - **Summary:** {1–2 plain sentences, jargon explained}
-  - **What this means:** {what it unlocks or changes, plain language}
-  - [{Outlet}]({url}) `[anchor]`
+- [ ] keep · **{Headline}**: {Outlet}, {publish date} `[anchor]`
+  - {key fact}
+  - Jargon: {term = plain explanation, or "none"}
+  - {url}
 
 ## China and open weights
-- [ ] keep · **{Headline}**
-  - **Summary:** {1–2 plain sentences, jargon explained}
-  - **What this means:** {what it unlocks or changes, plain language}
-  - [{Outlet}]({url}) `[anchor]`
+- [ ] keep · **{Headline}**: {Outlet}, {publish date} `[anchor]`
+  - {key fact}
+  - Jargon: {term = plain explanation, or "none"}
+  - {url}
 
 ## Regulation and politics
-- [ ] keep · **{Headline}**
-  - **Summary:** {1–2 plain sentences, jargon explained}
-  - **What this means:** {what it unlocks or changes, plain language}
-  - [{Outlet}]({url}) `[anchor]`
+- [ ] keep · **{Headline}**: {Outlet}, {publish date} `[anchor]`
+  - {key fact}
+  - Jargon: {term = plain explanation, or "none"}
+  - {url}
 
 ---
 Useful stories: _/10

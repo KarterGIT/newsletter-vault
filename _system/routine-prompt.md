@@ -1,5 +1,6 @@
-# Routine prompt
+# News-pull routine prompt
 
+This is the first routine. It collects research notes during the week. The issue-writer routine (`issue-prompt.md`) turns them into the newsletter on Friday.
 Copy everything below the line into the cloud routine at claude.ai/code.
 Schedule: Mon, Wed, Fri mornings. Repo: KarterGIT/newsletter-vault.
 
