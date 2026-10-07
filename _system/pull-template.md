@@ -6,12 +6,12 @@ week: {YYYY-Www}
 
 # News pull: {Weekday}, {Month D, YYYY}
 
-> Pulled {YYYY-MM-DD} · {N} stories · {N} sources checked · {N} discovered
+> Pulled {YYYY-MM-DD} · {N} found · 20 kept · {N} sources checked · {N} discovered · failed: {list or "none"}
 
 <!--
 RULES FOR THE ROUTINE (do not include this block in the output)
 - These are RESEARCH NOTES, not the newsletter. Record facts, don't write polished prose.
-- Include as many stories per section as are genuinely important, no filler. If a section has nothing good, write "_Nothing notable this pull._"
+- Keep the 20 most important stories total (see step 6 of routine-prompt.md), max 6 per section, no filler. If a section has nothing good, write "_Nothing notable this pull._"
 - Key facts: 2–4 short bullets taken from the article (what happened, who, numbers, dates). Put them in your own words. Don't copy sentences.
 - Jargon: if the story uses a technical term, explain it in a few words (e.g. "Terminal-Bench = a test of how well an AI can operate a computer by typing commands"). Write "none" if there isn't one.
 - Only stories published in the last 3–4 days.
@@ -69,6 +69,9 @@ RULES FOR THE ROUTINE (do not include this block in the output)
   - {key fact}
   - Jargon: {term = plain explanation, or "none"}
   - {url}
+
+## Also seen
+- {Headline}: {Outlet} {url}
 
 ---
 Useful stories: _/10
