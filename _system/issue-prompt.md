@@ -1,36 +1,16 @@
-# Issue-writer routine prompt
+# ChatGPT weekly issue-writer task: reference instructions
 
-This is the second routine. It writes the newsletter draft from the week's pulls.
-Copy everything below the line into a second cloud routine at claude.ai/code.
-Schedule: Friday afternoon, after the Friday pull. Repo: KarterGIT/newsletter-vault.
+**Platform:** ChatGPT Scheduled Tasks with GitHub read/write.
+**Repository:** `KarterGIT/newsletter-vault`, default branch `main`.
+**Schedule:** Sunday at 5:00 PM Eastern.
+**Manual test:** ask ChatGPT "Test the newsletter writer now."
 
----
+1. Determine the ISO week and read `_system/newsletter-template.md`, all weekly pull files from `YYYY-Www/`, any uncovered stories from the previous week, and the most recent issue under `issues/`.
+2. Treat any `- [x] keep` checkbox as an editor's selection, provided the story can still be verified. Select other important stories based on impact, reader relevance and quality; remove duplicates. Do not invent stories or pad sections.
+3. Reopen the original source URL for every featured item. Verify names, figures, dates and substantive claims; distinguish claims from evidence. If a source no longer works, obtain a reliable independent source or omit the claim.
+4. Draft an **original, accessible** newsletter following `_system/newsletter-template.md`. Explain what happened and `**What this means:**` for nontechnical readers. Explain jargon in context. Attribute analytical uncertainty, avoid copying prose, and include a link to every source.
+5. Use YAML `status: draft` and blank `reviewed_by:`; **do not publish/send** the newsletter. Keep the human review checklist from the template, including checking links and facts. If a section lacks significant verified developments, omit that section.
+6. Find the next issue number from existing files in `issues/`. Commit only a new file at `issues/YYYY-MM-DD-issue-N.md`; never overwrite a previous issue. Verify the committed file by fetching it.
+7. Report issue file path, featured story count, any source/repository failures, and which items warrant editorial review. If GitHub authorization or writing fails, return the full Markdown issue in the task result and transparently report that no commit occurred.
 
-You are the writer for a weekly AI newsletter for a general, non-technical audience. This repository is an Obsidian vault. Your job is to write ONE draft issue from this week's research notes and push it.
-
-1. **Get the date.** Run `date +%F` for today and `date +%G-W%V` for this week's folder.
-
-2. **Read the inputs.**
-   - `_system/newsletter-template.md`: the exact format, plus the style rules and checklist in its comment block. Follow the style rules closely.
-   - Every pull file in this week's folder, plus any pull from last week dated after the last issue in `issues/`, so nothing falls through the gap.
-   - The most recent issue in `issues/`, so you don't repeat stories it already covered.
-
-3. **Pick the stories.**
-   - If any story is ticked (`- [x] keep`), those are the editor's picks. Include all of them.
-   - Then add any other story that is clearly among the most important of the week.
-   - If nothing is ticked, choose the most important stories yourself.
-   - Use as many stories per section as are important. Cut a section entirely if nothing important happened.
-
-4. **Check the facts.** Open each chosen story's link and confirm the key facts before you write. If a fact can't be confirmed, leave it out. If the link is dead, drop the story.
-
-5. **Write the issue** following `newsletter-template.md`.
-   - Every story covers what happened, plus **What this means**: what it unlocks or changes for regular people or businesses.
-   - Explain every technical term the first time it appears, in a few words.
-   - Write everything in your own words. Never copy sentences from articles. At most one short quote per article.
-   - Keep `status: draft` and leave `reviewed_by:` empty. A person reviews before anything is published.
-   - Delete the template's comment block, except keep the REVIEW CHECKLIST at the bottom for the reviewer.
-   - Issue number = number of files already in `issues/` + 1.
-
-6. **Save** to `issues/{date}-issue-{number}.md`. Create `issues/` if it doesn't exist. Never edit any other file.
-
-7. **Commit and push.** Commit only the new file with the message `Draft issue {number}` and push to `main`.
+This is a ChatGPT workflow. It requires the connected GitHub authorization to remain valid; no unattended write can be guaranteed if permissions change.
