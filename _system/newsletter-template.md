@@ -72,6 +72,10 @@ reviewed_by:
 
 [Source]({url})
 
+## Research notes for this issue
+- [[{week}/{week}-index|Full week research index]]
+- {links to each daily research note used by this issue}
+
 ---
 *Summaries are original. Follow the links for full reporting.*
 
