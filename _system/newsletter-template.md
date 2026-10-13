@@ -5,80 +5,86 @@ reviewed_by:
 ---
 
 # AI Newsletter: Issue {number}
-*{start date} – {end date}*
+*{start date} to {end date}*
 
-{2–3 sentence intro: the big picture of these two weeks, in plain language.}
+{2-3 sentences about what connected the week's most important AI developments.}
 
 ---
 
 ## Headlines
-- **{headline}**: {one sentence}. [Source]({url})
-- *(as many as needed, usually 3–5)*
+- **{headline}**: {one accurate sentence}. [Source]({url})
+- *(usually 3-5 headlines, as many as warranted)*
 
 ## Technical
 ### Frontier models
 **{headline}**
-{What happened, in 1–2 plain sentences. If there's a technical term, explain it right there in a few words.}
-**What this means:** {What it unlocks or changes for regular people or businesses.}
-[Source]({url})
 
-*(repeat for each important story)*
+{What happened, in 1-2 plain sentences. Explain any unfamiliar terms.}
+
+**What this means:** {Why it matters for people, businesses or researchers.}
+
+[Source]({url})
 
 ### Hardware
 **{headline}**
+
 {What happened.}
+
 **What this means:** {Why it matters.}
+
 [Source]({url})
 
 ## Jobs
 **{headline}**
+
 {What happened.}
-**What this means:** {Why it matters.}
+
+**What this means:** {Who is affected and what the data actually show.}
+
 [Source]({url})
 
 ## Broader social impact
 **{headline}**
-{What happened. Math proofs, data centers, etc.}
-**What this means:** {Why it matters.}
+
+{What happened in science, math, data centers or society.}
+
+**What this means:** {Why readers should care.}
+
 [Source]({url})
 
 ## China and open weights
 **{headline}**
+
 {What happened.}
+
 **What this means:** {Why it matters.}
+
 [Source]({url})
 
 ## Regulation and politics
 **{headline}**
-{What happened.}
+
+{What happened, with clear attribution.}
+
 **What this means:** {Why it matters.}
+
 [Source]({url})
 
 ---
-*Summaries are our own. Follow the links for the full stories.*
+*Summaries are original. Follow the links for full reporting.*
 
-<!--
-HOW MANY STORIES
-- As many as needed per section, but only the ones that really matter.
-- A slow section can have just one. If nothing important happened, cut the section for that issue.
-
-WRITING STYLE (for a general audience)
-- Write like you're explaining it to a smart friend who doesn't work in tech.
-- Explain every technical term the first time, in a few words.
-    Bad:  "Model X scored 70% on Terminal-Bench."
-    Good: "Model X scored 70% on Terminal-Bench, a test of how well an AI
-           can operate a computer by typing commands, the way a programmer
-           does. That means it can handle more hands-on computer work alone,
-           like setting up software or fixing errors."
-- Every story answers two things: what happened, and what it means or unlocks.
-- Short sentences. No hype words ("revolutionary", "game-changing").
-- Numbers only when they help. Explain what the number means.
-
-REVIEW CHECKLIST (delete before publishing)
-- [ ] Every link opens and goes to the original story
-- [ ] Every fact checked against its source (numbers, names, dates)
-- [ ] Jargon explained so a non-tech reader would follow it
-- [ ] Summaries are in our own words, not copied text
-- [ ] No more than a short quote from any one article
-- [ ] Reviewer signed off: set status to "approved"
+<!-- EDITOR INSTRUCTIONS: remove before publishing
+- This template is the **weekly** newsletter format. Sections with no significant verified news can be omitted.
+- The news pull uses narrower subsections; combine the two social impact sections into Broader social impact for the issue.
+- Explain jargon the first time it appears. Prefer specific consequences over hype or speculation.
+- Differentiate a developer's claims about models from independent performance evidence.
+- Keep status: draft and reviewed_by blank until a human has reviewed it.
+- Checklists for reviewer:
+  - [ ] Every link resolves to the original relevant article
+  - [ ] Important figures, names and dates double-checked
+  - [ ] Company claims labeled as claims, not independent results
+  - [ ] No duplicated story or filler
+  - [ ] Language accessible to nontechnical readers
+  - [ ] All prose written in original words
+  - [ ] Reviewer explicitly approved for external publication
 -->
