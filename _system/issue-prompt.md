@@ -1,16 +1,14 @@
-# ChatGPT weekly issue-writer task: reference instructions
+# ChatGPT weekly newsletter: project-week workflow
 
-**Platform:** ChatGPT Scheduled Tasks with GitHub read/write.
-**Repository:** `KarterGIT/newsletter-vault`, default branch `main`.
-**Schedule:** Sunday at 5:00 PM Eastern.
-**Manual test:** ask ChatGPT "Test the newsletter writer now."
+Repository: KarterGIT/newsletter-vault, branch main.
+Cadence: Sundays at 5 PM Eastern.
+Project Week 1 began Monday 2026-10-05; Week 2 is October 12–18. Increment week numbers by seven-day project weeks, NOT ISO W41/W42.
 
-1. Determine the ISO week and read `_system/newsletter-template.md`, all weekly pull files from `YYYY-Www/`, any uncovered stories from the previous week, and the most recent issue under `issues/`.
-2. Treat any `- [x] keep` checkbox as an editor's selection, provided the story can still be verified. Select other important stories based on impact, reader relevance and quality; remove duplicates. Do not invent stories or pad sections.
-3. Reopen the original source URL for every featured item. Verify names, figures, dates and substantive claims; distinguish claims from evidence. If a source no longer works, obtain a reliable independent source or omit the claim.
-4. Draft an **original, accessible** newsletter following `_system/newsletter-template.md`. Explain what happened and `**What this means:**` for nontechnical readers. Explain jargon in context. Attribute analytical uncertainty, avoid copying prose, and include a direct external article link to every featured story PLUS an Obsidian internal link to the exact dated pull note supplying it, such as `[[2026-W42/2026-10-13-tue|Research notes]]`. Do not confuse the article URL with the local Obsidian source-note link.
-5. Use YAML `status: draft` and blank `reviewed_by:`; **do not publish/send** the newsletter. Keep the human review checklist from the template, including checking links and facts. If a section lacks significant verified developments, omit that section.
-6. Add a `## Research notes for this issue` section listing `[[YYYY-Www/YYYY-Www-index|Week overview]]` and every dated pull from which selected stories were used, including a previous week if needed. Link only existing files. Find next issue number and commit a new `issues/YYYY-MM-DD-issue-N.md`, never overwriting an issue. Verify by fetching the new issue. Then update this week's `YYYY-Www/YYYY-Www-index.md` to link to the committed newsletter, editing **only** its marked AUTO-LINKS section. The finished issue is linked from the weekly index; the graph should retain a clean Newsletter Home -> Weekly Index -> Daily Pulls and Issue organization. The issue may also link to the exact daily pulls it quotes for source traceability, but never add random sibling-to-sibling or system-template links. Keep wiki links for internal Obsidian drafts; convert/remove them before distributing a public newsletter.
-7. Report issue file path, featured story count, any source/repository failures, and which items warrant editorial review. If GitHub authorization or writing fails, return the full Markdown issue in the task result and transparently report that no commit occurred.
+1. Read `Newsletter Template.md`, `_system/sources.md`, this instruction note, `Week N/Week N.md`, all verified research in `Week N/Sources/`, and prior newsletter draft(s) for deduplication.
+2. Select the most important and credible stories from the actual collected notes, honoring `[x] keep` requests where they pass verification. Follow full source URLs to confirm date, names, figures and original claims; independently cross-check high-impact disputed items when feasible. Do not recycle unverifiable old stories or add filler to meet a target.
+3. Produce **one complete original newsletter** per finished week, following the root `Newsletter Template.md` section structure: introduction, headlines, relevant technical/jobs/social/world/regulatory sections, and for each feature **What this means** in clear nontechnical language. Keep original publication URLs. Add a supporting internal Obsidian link to the specific `Week N/Sources/daily note` for traceability. No cross-links to system templates.
+4. Write to `Week N/Newsletter Draft.md` ONLY if a complete meaningful newsletter is ready. YAML includes `type: newsletter-issue`, `project_week: N`, `status: draft`, and blank `reviewed_by:`. It may link back to `[[Week N/Week N|Week N overview]]`. Do not publish/send the draft or create empty placeholder drafts. Do not overwrite if a draft already exists; instead report it for editor review.
+5. After confirming the GitHub commit/read-back, update the weekly overview's `<!-- WEEK FILES START -->` to `<!-- WEEK FILES END -->` segment to include a single link `[[Week N/Newsletter Draft|Full newsletter draft]]` alongside its actual sources. No separate global newsletter home, no old `issues/` subfolder.
+6. Preserve editorial notes, original research and archive history; provide clear factual/source exceptions and actual paths. If approvals are blocked, return full draft text and say that GitHub did not get updated.
 
-This is a ChatGPT workflow. It requires the connected GitHub authorization to remain valid; no unattended write can be guaranteed if permissions change.
+The central visible node is `Newsletter Template.md`. It connects to each Week N hub. Each Week N hub connects to the actual three research pulls (when available) and one complete newsletter draft, giving an easy-to-follow Obsidian graph.
