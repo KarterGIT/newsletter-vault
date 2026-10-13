@@ -14,99 +14,73 @@ This is the central template for writing weekly AI newsletters. Each week has it
 
 ## Newsletter writing format
 
-The Sunday automation uses this format, filling in the actual verified stories and replacing all placeholders. The newsletter is saved as `Week N/Newsletter Draft.md`, not here.
+**Goal:** A polished, website-ready *editorial draft* for a general audience. Source-pull Markdown is internal research; it is **not** the copy to post. The Sunday newsletter should read like a finished publication, pending fact-check and human approval.
 
+### Style and selection rules
+- Aim for roughly **900–1,300 words** on a normal week, adjusting for meaningful news. A strong shorter issue beats filler.
+- Lead with the week's strongest shared theme, not a chronology of Monday/Wednesday/Friday pulls. Give the reader a reason to care in the first few lines.
+- Include 3–4 concise clickable headlines followed by **5–8 well-chosen original stories**. One or two lead features may be longer; make smaller updates brief.
+- Use clear paragraphs, memorable specific headings, and transitions. Vary paragraph and story lengths. Explain unfamiliar jargon naturally. Avoid hype, stock phrases and the same three-sentence summary formula for every story.
+- Explain the consequences for readers or businesses *within the reporting*. Don't repeat **What this means:** after every item; use a labeled takeaway only when it genuinely improves understanding.
+- Keep verified names, dates and figures. Attribute unverified benchmarks, company promises, research estimates and disputed assertions. Cite the **original linked articles** naturally in each section.
+- No Reddit or unsourced rumors, inflated predictions, news-copy imitation, duplicate stories or forced category filler. Omit quiet sections rather than adding "Nothing notable".
+- Preserve the established broad headings below where relevant, but choose compelling *story headlines* underneath them.
+- Keep the issue `status: draft` until a human signs off. Do not send or publish automatically.
+
+## Reader-facing issue structure
+
+```markdown
+---
+type: newsletter-issue
+project_week: {N}
+status: draft
+reviewed_by:
 ---
 
-# AI Newsletter: Week {number}
-*{start date} to {end date}*
+# {An interesting editorial headline, not just "Week N"}
+*Week {N} | {date range}*
 
-{2-3 sentences about what connected the week's most important AI developments.}
+**{One-sentence standfirst: what defined this week's AI news}**
 
-*Link to the matching Week N overview and original source notes in the saved draft.*
-
----
+{An opening hook and short introduction, 2-3 paragraphs connecting the biggest developments.}
 
 ## Headlines
-- **{headline}**: {one accurate sentence}. [Source]({url})
-- *(usually 3-5 headlines, as many as warranted)*
+- **[{Big news headline}]({original URL})**: {one crisp, factual sentence}
+- {2-3 more genuinely important items}
 
 ## Technical
-### Frontier models
-**{headline}**
+### Frontier models: {story-specific subheading}
+{Engaging original reporting and the real implications. Link to the original verified publication inline.}
 
-{What happened, in 1-2 plain sentences. Explain any unfamiliar terms.}
-
-**What this means:** {Why it matters for people, businesses or researchers.}
-
-[Source]({url})
-
-### Hardware
-**{headline}**
-
-{What happened.}
-
-**What this means:** {Why it matters.}
-
-[Source]({url})
+### Hardware: {story-specific subheading}
+{Write only if there is a meaningful distinct story.}
 
 ## Jobs
-**{headline}**
-
-{What happened.}
-
-**What this means:** {Who is affected and what the data actually show.}
-
-[Source]({url})
+### {story-specific subheading}
+{What changed for workers and employers, with quantified uncertainty.}
 
 ## Broader social impact
-**{headline}**
-
-{What happened in science, math, data centers or society.}
-
-**What this means:** {Why readers should care.}
-
-[Source]({url})
+### {story-specific subheading}
+{Social, scientific, community and data-center impacts.}
 
 ## China and open weights
-**{headline}**
-
-{What happened.}
-
-**What this means:** {Why it matters.}
-
-[Source]({url})
+### {story-specific subheading}
+{Relevant global development and its significance.}
 
 ## Regulation and politics
-**{headline}**
+### {story-specific subheading}
+{Explain precisely whether a proposal, policy, court action or opinion.}
 
-{What happened, with clear attribution.}
+## The takeaway
+{A concrete, thoughtful 2-4 sentence close looking ahead rather than repeating the intro.}
+```
 
-**What this means:** {Why it matters.}
+Keep only sections supported by substantial verified stories. The placeholders in this template are not article content.
 
-[Source]({url})
+## Editorial and website handoff
 
-## Research notes for this issue
-- {Link to the appropriate Week N overview}
-- {links to each daily research note used by this issue}
-
----
-*Summaries are original. Follow the links for full reporting.*
-
-<!-- EDITOR INSTRUCTIONS: remove before publishing
-- Each feature links directly to its external original source and, in the saved draft, its actual Week N source note.
-- In public editions remove or convert internal Obsidian links.
-- This template is the **weekly** newsletter format. Sections with no significant verified news can be omitted.
-- The news pull uses narrower subsections; combine the two social impact sections into Broader social impact for the issue.
-- Explain jargon the first time it appears. Prefer specific consequences over hype or speculation.
-- Differentiate a developer's claims about models from independent performance evidence.
-- Keep status: draft and reviewed_by blank until a human has reviewed it.
-- Checklists for reviewer:
-  - [ ] Every link resolves to the original relevant article
-  - [ ] Important figures, names and dates double-checked
-  - [ ] Company claims labeled as claims, not independent results
-  - [ ] No duplicated story or filler
-  - [ ] Language accessible to nontechnical readers
-  - [ ] All prose written in original words
-  - [ ] Reviewer explicitly approved for external publication
--->
+- The **main body** of `Week N/Newsletter Draft.md` should be readable as the site newsletter with almost no rewriting, though approval is still required.
+- Keep **external article links** in the reader-facing text. For source tracing, keep Obsidian note backlinks to the week and supporting daily pulls in an **editorial-only appendix or hidden Markdown comment at the bottom**, clearly separated from the public article body.
+- The Week N overview supplies the visible Graph View link to the newsletter. Avoid unnecessary cross-links or operational prompt mentions in the main prose.
+- Before posting to the site, remove the YAML metadata and any editorial-only appendix, confirm links display correctly in the site's publishing system, and obtain human approval. No automatic publishing.
+- Final pass: check headline/standfirst, readability aloud, internal consistency, full story dates, attribution, external URLs, tone, and no unsupported certainty.
