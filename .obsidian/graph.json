@@ -1,6 +1,6 @@
 {
   "collapse-filter": true,
-  "search": "-path:_system -file:README",
+  "search": "-path:_system -path:Archive -file:README",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
