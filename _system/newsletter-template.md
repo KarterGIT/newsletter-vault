@@ -9,6 +9,8 @@ reviewed_by:
 
 {2-3 sentences about what connected the week's most important AI developments.}
 
+*Internal: [[{week}/{week}-index|Browse this week's research notes]]*
+
 ---
 
 ## Headlines
@@ -74,6 +76,8 @@ reviewed_by:
 *Summaries are original. Follow the links for full reporting.*
 
 <!-- EDITOR INSTRUCTIONS: remove before publishing
+- Each feature must link both to its external original source URL and an internal `[[week/date-day|Supporting research]]` note.
+- In public editions remove or convert internal Obsidian links.
 - This template is the **weekly** newsletter format. Sections with no significant verified news can be omitted.
 - The news pull uses narrower subsections; combine the two social impact sections into Broader social impact for the issue.
 - Explain jargon the first time it appears. Prefer specific consequences over hype or speculation.
