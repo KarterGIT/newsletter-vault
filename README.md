@@ -7,6 +7,7 @@ This Obsidian vault is maintained through GitHub, with research and draft issues
 - Sunday, 5:00 PM: weekly newsletter draft.
 
 ## Files
+- `Newsletter Home.md`: main graph hub, linking one overview page per week.
 - `YYYY-Www/YYYY-MM-DD-day.md`: dated news pulls in ISO week folders.
 - `YYYY-Www/YYYY-Www-index.md`: Obsidian week overview with links to daily notes and the newsletter draft.
 - `issues/YYYY-MM-DD-issue-N.md`: original weekly newsletter drafts.
@@ -18,7 +19,7 @@ This Obsidian vault is maintained through GitHub, with research and draft issues
 ## Workflow
 1. ChatGPT researches current credible sources, checks publication dates and full article URLs, and compares prior pulls to prevent duplicates.
 2. ChatGPT creates **one new Markdown file** per research run. Mark `- [x] keep` for a story you want featured.
-3. Each day's note links to the weekly overview and earlier notes; the overview is updated as new pulls arrive.
+3. Each day's note links ONLY to the weekly overview. The overview links to every daily note, while Newsletter Home links to each weekly overview. Do not link daily notes to one another.
 4. On Sunday, ChatGPT writes a draft with both original article URLs and Obsidian links to supporting research notes, then links the draft from the weekly overview.
 5. Review in Obsidian before publishing. Internal `[[note links]]` only work inside the vault. The automation does not publish or distribute externally.
 
@@ -28,3 +29,6 @@ To test manually, ask ChatGPT to "Run the newsletter news pull now" or "Test thi
 The tasks use ChatGPT's web research and connected GitHub integration, not an external agent or local scheduler. Connections and authorization must remain valid. A successful interactive commit verifies current write access, **not** an unconditional guarantee that unattended runs never encounter future permissions or outages. If research or GitHub writing fails, the task should report it honestly rather than claiming success or producing unsupported stories.
 
 Obsidian Git periodically pulls remote changes. The owner controls synchronization on their own device.
+
+## Graph view
+The preferred layout is Newsletter Home -> Week overview -> Individual daily research notes and draft issue. `_system` operational templates and unrelated orphan files are hidden in the default Graph View through `.obsidian/graph.json`. You can always change these filters from Graph View settings. For recent GitHub edits, allow Obsidian Git to pull or run `Git: Pull` from the command palette, then reopen Graph View if needed.
