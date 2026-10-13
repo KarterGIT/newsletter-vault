@@ -8,6 +8,7 @@ This Obsidian vault is maintained through GitHub, with research and draft issues
 
 ## Files
 - `YYYY-Www/YYYY-MM-DD-day.md`: dated news pulls in ISO week folders.
+- `YYYY-Www/YYYY-Www-index.md`: Obsidian week overview with links to daily notes and the newsletter draft.
 - `issues/YYYY-MM-DD-issue-N.md`: original weekly newsletter drafts.
 - `_system/sources.md`: trusted research outlets and verification rules.
 - `_system/pull-template.md`: exact news-pull format.
@@ -17,8 +18,9 @@ This Obsidian vault is maintained through GitHub, with research and draft issues
 ## Workflow
 1. ChatGPT researches current credible sources, checks publication dates and full article URLs, and compares prior pulls to prevent duplicates.
 2. ChatGPT creates **one new Markdown file** per research run. Mark `- [x] keep` for a story you want featured.
-3. On Sunday, ChatGPT reads all current-week pulls and the prior issue, selects verified stories, writes an original newsletter **draft** and commits it.
-4. Review the draft inside Obsidian before publishing. The automation does not publish or distribute externally.
+3. Each day's note links to the weekly overview and earlier notes; the overview is updated as new pulls arrive.
+4. On Sunday, ChatGPT writes a draft with both original article URLs and Obsidian links to supporting research notes, then links the draft from the weekly overview.
+5. Review in Obsidian before publishing. Internal `[[note links]]` only work inside the vault. The automation does not publish or distribute externally.
 
 To test manually, ask ChatGPT to "Run the newsletter news pull now" or "Test this week's issue writer." These are normal chat requests, separate from the recurring schedule.
 
