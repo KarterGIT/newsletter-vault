@@ -24,6 +24,10 @@ status: research
 - Never use Reddit posts or unknown sources as evidence.
 -->
 
+## Other research this week
+- [[{week}/{week}-index|Week overview]]
+- {Links to other existing pull notes from the same week. Omit if none.}
+
 ## Headlines
 - [ ] keep · **{Headline}**. [{Outlet}]({url}) `[anchor]`
 
