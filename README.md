@@ -1,41 +1,39 @@
-# AI Newsletter Vault
+# AI Newsletter Project
 
-This is a ChatGPT-run Obsidian/GitHub newsletter workflow.
+A prototype workflow for researching AI news, organizing sources in Obsidian, and drafting a weekly newsletter with ChatGPT. The repository is private; nothing here is published to a website automatically.
 
-## Project weeks
-- **Week 1**: October 5–11, 2026.
-- **Week 2**: October 12–18, 2026.
-- New weeks increment from that start date, not the ISO calendar week number.
+## Start here: review the sample
 
-## Visible Obsidian layout
-The root `Newsletter Template.md` is the central graph node. It links to the `Week N/Week N.md` overview for every project week. Every overview links to its daily source pulls and the single full newsletter draft. Internal source links in the newsletter provide the audit trail; the original external publication URLs remain available.
+**[Read the publication-style newsletter sample (October 5–11)](Tests/Publication-Ready%20Newsletter%20Preview%20-%20Week%201.md)**
 
-```text
-Newsletter Template.md
-  Week 1/Week 1.md
-    Sources/2026-10-07-wed.md
-    Newsletter Draft.md (not created for incomplete Week 1)
-  Week 2/Week 2.md
-    Sources/2026-10-13-tue.md (manual test)
-    Sources/YYYY-MM-DD-day.md (Wednesday, once verified)
-    Sources/YYYY-MM-DD-day.md (Friday, once verified)
-    Newsletter Draft.md (Sunday, once written)
-```
+This standalone sample shows the intended **writing and editorial direction**. It's deliberately not connected to the real weekly drafts. It is **not a published issue**.
 
-Weekly folders contain the real files, not placeholder nodes. Obsidian Graph View hides `_system/`, `Archive/`, the README, orphaned nodes and unresolved links. Archives and internal templates remain available in the file browser.
+Feedback would be especially useful on the target audience, story selection, depth, tone, overall length, and whether the newsletter feels close to ready for a website.
 
-## Schedule (Eastern)
-- Monday, Wednesday and Friday, **5 PM**: collect source research and save one dated Markdown pull if verified articles were found.
-- Sunday, **5 PM**: read that week's research and write one complete original `Week N/Newsletter Draft.md`. Keep status `draft` and `reviewed_by` blank until human approval.
+## How it works
 
-A manual test can count as that week's source pull if the scheduled run for its slot failed. Do not create a duplicate file for the same collection.
+1. **Research, Monday / Wednesday / Friday, 5 PM Eastern.** ChatGPT searches credible original sources, opens articles, checks dates and claims, filters duplicates, and saves verified notes. It doesn't make empty placeholder notes when research fails.
+2. **Draft, Sunday, 5 PM Eastern.** ChatGPT revisits sources, selects important stories, and writes a reader-facing newsletter with a strong introduction, linked articles, natural explanation, and a closing takeaway.
+3. **Human review.** The issue stays marked `draft` until someone checks accuracy, links, format and writing. No automatic publication.
 
-## Research quality
-Use original publications, credible established outlets, full dated articles, and original research. Verify actual claims and URLs. Exclude Reddit, unverified rumors and AI-generated news content farms. Attribute developer claims rather than presenting them as independent findings. Prefer fewer high-quality stories to padded reports.
+The scheduled task prompts are kept short. Their detailed rules live in `_system/routine-prompt.md`, `_system/issue-prompt.md` and `_system/sources.md`; the publication style is in `Newsletter Template.md`.
 
-## Important safeguards
-Never create empty news notes filled with "Nothing notable this pull." If no reliable items can be verified, report the failed run without adding a node. Never create an empty draft to fill a graph slot. Do not overwrite research notes, editorial checkboxes, existing drafts or external publication history. Keep old supplementary tests in `Archive/`, hidden from the main graph.
+## Where the files live
 
-GitHub permissions and the web connection are required for unattended writes. Report failures explicitly rather than claiming a commit that was not verified.
+| File / folder | Purpose |
+| --- | --- |
+| [Newsletter Template.md](Newsletter%20Template.md) | Central Obsidian graph note and newsletter writing style |
+| [Week 1](Week%201/Week%201.md) | October 5–11; initial research retained for reference |
+| [Week 2](Week%202/Week%202.md) | October 12–18; current automation test week |
+| `Week N/Sources/` | Up to three dated research collections per week |
+| `Week N/Newsletter Draft.md` | One full Sunday draft, created only when written |
+| `Tests/` | Standalone publication-style sample, hidden from the regular graph |
+| `_system/` | Instructions and trusted source lists; not site content |
 
-The older `2026-W41`/`2026-W42` folder names were ISO calendar labels, not the newsletter issue numbers; they have been replaced by actual project Week 1/Week 2 folders.
+Project weeks are counted from **Monday, October 5, 2026**. They are *not* ISO calendar-week numbers.
+
+## Current status
+
+**Work in progress.** GitHub research and writing were tested interactively, but an entire Monday–Sunday sequence has **not** yet completed unattended. Week 1 contains earlier research that must be reverified before use; Week 2 contains a manual verified pull, with the first scheduled Sunday draft pending. Failures and missing research are reported, never filled with invented content.
+
+The default Obsidian graph hides internal instructions, tests, and unrelated files. Git/Obsidian plugin settings are retained so vault syncing keeps working. External articles are linked for traceability; company claims and research estimates should be clearly attributed.

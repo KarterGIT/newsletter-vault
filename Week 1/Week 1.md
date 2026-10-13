@@ -15,11 +15,10 @@ end_date: 2026-10-11
 - [[Week 1/Sources/2026-10-07-wed|Wednesday, October 7]]
 
 ## Newsletter draft
-_Not written yet. Only Wednesday's research survived the original failed workflow; the other two scheduled pulls produced no verified articles. A real Week 1 issue can be backfilled later after source re-verification._
+_No production newsletter was generated for this partial first week. A separate editorial sample is available in the Tests folder, but it is not part of the automated series._
 <!-- WEEK FILES END -->
 
 **Accuracy note:** Wednesday's legacy research was collected before the ChatGPT verification workflow. Recheck every selected original article before using those claims in a newsletter.
 
-The second October 7 research test is preserved outside the main graph in `Archive/Week 1/`; it is not a separate scheduled research day.
 
-*Future weeks target three source pulls (Monday, Wednesday, Friday) and one Sunday newsletter draft. Missing research or drafts are never fabricated.*
+*The intended weekly cadence is three research pulls (Monday, Wednesday, Friday) and one Sunday draft. Missing runs are never fabricated.*
