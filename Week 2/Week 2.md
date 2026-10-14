@@ -13,6 +13,7 @@ end_date: 2026-10-18
 <!-- WEEK FILES START -->
 ## Source research
 - [[Week 2/Sources/2026-10-13-tue|Tuesday, October 13 · manual research test]]
+- [[Week 2/Sources/2026-10-14-wed|Wednesday, October 14 · verified research]]
 
 ## Newsletter draft
 _Pending Sunday, October 18, after the Wednesday and Friday research pulls._
