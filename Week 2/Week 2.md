@@ -14,9 +14,10 @@ end_date: 2026-10-18
 ## Source research
 - [[Week 2/Sources/2026-10-13-tue|Tuesday, October 13 · manual research test]]
 - [[Week 2/Sources/2026-10-14-wed|Wednesday, October 14 · verified research]]
+- [[Week 2/Sources/2026-10-16-fri|Friday, October 16 · verified research]]
 
 ## Newsletter draft
-_Pending Sunday, October 18, after the Wednesday and Friday research pulls._
+_Pending Sunday, October 18._
 <!-- WEEK FILES END -->
 
 This week began with an unsuccessful Monday run; the empty file was removed. Tuesday's verified manual test takes its place as the first research note for this week. Future weeks will normally use Monday, Wednesday, and Friday.
