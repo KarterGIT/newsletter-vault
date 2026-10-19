@@ -10,6 +10,7 @@ This is the central template for writing weekly AI newsletters. Each week has it
 ## Weeks
 - [[Week 1/Week 1|Week 1 · October 5–11, 2026]]
 - [[Week 2/Week 2|Week 2 · October 12–18, 2026]]
+- [[Week 3/Week 3|Week 3 · October 19–25, 2026]]
 <!-- WEEKS END -->
 
 ## Newsletter writing format
