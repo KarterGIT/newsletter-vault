@@ -17,7 +17,7 @@ end_date: 2026-10-25
 - [[Week 3/Sources/2026-10-23-fri|Friday, October 23 · verified research]]
 
 ## Newsletter draft
-_Pending Sunday, October 25. All three research pulls are available for source rechecking and editorial selection._
+- [[Week 3/Newsletter Draft|AI Is Leaving the Chat Window · draft, pending review]]
 <!-- WEEK FILES END -->
 
 This is the first source pull for Week 3. Research normally runs Monday, Wednesday and Friday. The newsletter remains a draft until human approval and is never published automatically.
