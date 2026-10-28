@@ -13,6 +13,7 @@ end_date: 2026-11-01
 <!-- WEEK FILES START -->
 ## Source research
 - [[Week 4/Sources/2026-10-26-mon|Monday, October 26 · verified research]]
+- [[Week 4/Sources/2026-10-28-wed|Wednesday, October 28 · verified research]]
 
 ## Newsletter draft
 _Not written yet. Scheduled for Sunday, November 1, after additional verified research._
