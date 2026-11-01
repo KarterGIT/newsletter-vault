@@ -17,7 +17,7 @@ end_date: 2026-11-01
 - [[Week 4/Sources/2026-10-30-fri|Friday, October 30 · verified research]]
 
 ## Newsletter draft
-_Not written yet. Planned for Sunday, November 1, using the three verified research collections._
+- [[Week 4/Newsletter Draft|Week 4 newsletter draft · awaiting review]]
 <!-- WEEK FILES END -->
 
 This week is in progress. Research normally runs Monday, Wednesday and Friday; missing or failed runs are never filled with placeholders. The newsletter remains a draft until human approval and is never published automatically.
