@@ -17,7 +17,7 @@ end_date: 2026-11-08
 - [[Week 5/Sources/2026-11-06-fri|Friday, November 6 · verified research]]
 
 ## Newsletter draft
-_Not written yet. Planned after this week's research collections; no placeholder draft is created._
+- [[Week 5/Newsletter Draft|Week 5 newsletter draft · awaiting editorial approval]]
 <!-- WEEK FILES END -->
 
-This week is in progress. Research normally runs Monday, Wednesday and Friday. Missing or failed runs are never filled with placeholders. The newsletter remains a draft until human approval and is never published automatically.
+This week has three research collections and one newsletter draft. The issue remains a draft until human approval and is never published automatically.
