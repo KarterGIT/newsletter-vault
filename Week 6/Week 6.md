@@ -11,6 +11,7 @@ date_range: 2026-11-09 to 2026-11-15
 ## Research collections
 <!-- WEEK FILES START -->
 - [[Week 6/Sources/2026-11-09-mon|Monday, November 9 research]]
+- [[Week 6/Sources/2026-11-11-wed|Wednesday, November 11 research]]
 <!-- WEEK FILES END -->
 
 ## Newsletter draft
