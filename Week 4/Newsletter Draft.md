@@ -90,10 +90,10 @@ These remarks are a statement of enforcement priorities, not a new AI law or a f
 
 AI is becoming more capable in ways that matter outside a chat window. It can navigate software, help robots plan and make specialized work faster. The next test is less glamorous: whether those gains hold up under supervision, whether people actually build skills and whether the money spent to deliver them produces lasting returns. This week made clear that all three questions are arriving at once.
 
-<!-- EDITORIAL ONLY: SOURCE TRACE AND OBSIDIAN GRAPH LINKS. REMOVE BEFORE WEBSITE PUBLICATION.
-[[Week 4/Week 4|Week 4 overview]]
-[[Week 4/Sources/2026-10-26-mon|Monday research, October 26]]
-[[Week 4/Sources/2026-10-28-wed|Wednesday research, October 28]]
-[[Week 4/Sources/2026-10-30-fri|Friday research, October 30]]
+<!-- EDITORIAL ONLY: SOURCE TRACE AND INTERNAL NOTE LINKS. REMOVE BEFORE WEBSITE PUBLICATION.
+[Week 4 overview](Week%204.md)
+[Monday research, October 26](Sources/2026-10-26-mon.md)
+[Wednesday research, October 28](Sources/2026-10-28-wed.md)
+[Friday research, October 30](Sources/2026-10-30-fri.md)
 Fact-check notes: The Nature Human Behaviour article is subscription-restricted beyond its publisher abstract, which corroborates the reported sample, outcomes and limitations. The Reuters finance, IPO and SEC reporting was checked against accessible Reuters search records and syndicated copies because direct article pages did not open in the web reader. Developer benchmarks and product timelines are attributed; no unconfirmed TPU purchase, alleged model distillation, or speculative export-control claim is included. This draft requires human editorial approval and a final pre-publication link check.
 -->

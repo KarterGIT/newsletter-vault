@@ -93,7 +93,7 @@ These are priorities for regulatory examinations in fiscal 2027, **not a new law
 This week offered a glimpse of AI's next phase: less time spent asking questions, more time spent delegating real work. The technology is getting closer to the calendar, the checkout, the codebase and the clinic. Its usefulness will increasingly depend on something less glamorous than model intelligence: clear permissions, reliable checks and people who remain able to say no.
 
 <!-- EDITORIAL-ONLY SOURCE TRAIL: Remove this comment and YAML metadata before publication.
-Weekly overview: [[Week 3/Week 3|Week 3 overview]]
-Research pulls: [[Week 3/Sources/2026-10-19-mon|Monday, October 19]]; [[Week 3/Sources/2026-10-21-wed|Wednesday, October 21]]; [[Week 3/Sources/2026-10-23-fri|Friday, October 23]]
+Weekly overview: [Week 3 overview](Week%203.md)
+Research pulls: [Monday, October 19](Sources/2026-10-19-mon.md); [Wednesday, October 21](Sources/2026-10-21-wed.md); [Friday, October 23](Sources/2026-10-23-fri.md)
 Editorial status: draft, not approved or published. Primary-source links and dates rechecked October 25, 2026. AISI's October 23 analysis revisits an older incident; OpenAI's October 23 disclosure describes September events. Developer performance results, release schedules and benchmark figures are attributed to their issuers. Recheck late-breaking security guidance, product availability and policy changes before publishing. Reuters direct pages were inaccessible during this pass, so the published copy relies on accessible primary sources.
 -->

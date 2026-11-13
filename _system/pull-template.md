@@ -10,7 +10,7 @@ status: research
 > Pulled {date} · {N} candidate stories reviewed · {N} kept · {N} full source pages checked · failed: {description or none}
 
 ## This week's research
-[[Week {N}/Week {N}|Week {N} overview]]
+[Week {N} overview](../Week%20{N}.md)
 
 ## Headlines
 - [ ] keep · **{Verified headline}**. [{Original publication}]({original URL})
@@ -50,5 +50,5 @@ Useful stories: _/10
 Only create a research file when at least one credible relevant story was verified.
 Do not write repetitive "Nothing notable this pull" placeholders in empty sections.
 Omit empty category headings from the finished file when that improves readability.
-Preserve this vault's exactly-one weekly hub link. Each story has full actual original link.
+Preserve this project's exactly-one relative Markdown weekly overview link. Each story has full actual original link.
 -->

@@ -4,17 +4,17 @@ type: newsletter-template
 
 # Newsletter Template
 
-This is the central template for writing weekly AI newsletters. Each week has its own research notes and one finished **draft**. The files below are linked here so the Obsidian graph stays organized.
+This is the central template for writing weekly AI newsletters. Each week has its own research notes and one finished **draft**. The files below use standard Markdown links so the project is easy to navigate on GitHub.
 
 <!-- WEEKS START -->
 
 ## Weeks
-- [[Week 1/Week 1|Week 1 · October 5–11, 2026]]
-- [[Week 2/Week 2|Week 2 · October 12–18, 2026]]
-- [[Week 3/Week 3|Week 3 · October 19–25, 2026]]
-- [[Week 4/Week 4|Week 4 · October 26–November 1, 2026]]
-- [[Week 5/Week 5|Week 5 · November 2–8, 2026]]
-- [[Week 6/Week 6|Week 6 · November 9–15, 2026]]
+- [Week 1 · October 5–11, 2026](Week%201/Week%201.md)
+- [Week 2 · October 12–18, 2026](Week%202/Week%202.md)
+- [Week 3 · October 19–25, 2026](Week%203/Week%203.md)
+- [Week 4 · October 26–November 1, 2026](Week%204/Week%204.md)
+- [Week 5 · November 2–8, 2026](Week%205/Week%205.md)
+- [Week 6 · November 9–15, 2026](Week%206/Week%206.md)
 <!-- WEEKS END -->
 
 ## Newsletter writing format
@@ -85,7 +85,7 @@ Keep only sections supported by substantial verified stories. The placeholders i
 ## Editorial and website handoff
 
 - The **main body** of `Week N/Newsletter Draft.md` should be readable as the site newsletter with almost no rewriting, though approval is still required.
-- Keep **external article links** in the reader-facing text. For source tracing, keep Obsidian note backlinks to the week and supporting daily pulls in an **editorial-only appendix or hidden Markdown comment at the bottom**, clearly separated from the public article body.
-- The Week N overview supplies the visible Graph View link to the newsletter. Avoid unnecessary cross-links or operational prompt mentions in the main prose.
+- Keep **external article links** in the reader-facing text. For source tracing, keep relative Markdown links to the week and supporting daily pulls in an **editorial-only appendix or hidden Markdown comment at the bottom**, clearly separated from the public article body.
+- The Week N overview links directly to the newsletter draft. Avoid unnecessary cross-links or operational prompt mentions in the main prose.
 - Before posting to the site, remove the YAML metadata and any editorial-only appendix, confirm links display correctly in the site's publishing system, and obtain human approval. No automatic publishing.
 - Final pass: check headline/standfirst, readability aloud, internal consistency, full story dates, attribution, external URLs, tone, and no unsupported certainty.

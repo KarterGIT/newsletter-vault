@@ -8,16 +8,16 @@ end_date: 2026-11-01
 # Week 4
 *October 26–November 1, 2026*
 
-[[Newsletter Template|Newsletter Template]]
+[Newsletter Template](../Newsletter%20Template.md)
 
 <!-- WEEK FILES START -->
 ## Source research
-- [[Week 4/Sources/2026-10-26-mon|Monday, October 26 · verified research]]
-- [[Week 4/Sources/2026-10-28-wed|Wednesday, October 28 · verified research]]
-- [[Week 4/Sources/2026-10-30-fri|Friday, October 30 · verified research]]
+- [Monday, October 26 · verified research](Sources/2026-10-26-mon.md)
+- [Wednesday, October 28 · verified research](Sources/2026-10-28-wed.md)
+- [Friday, October 30 · verified research](Sources/2026-10-30-fri.md)
 
 ## Newsletter draft
-- [[Week 4/Newsletter Draft|Week 4 newsletter draft · awaiting review]]
+- [Week 4 newsletter draft · awaiting review](Newsletter%20Draft.md)
 <!-- WEEK FILES END -->
 
 This week is in progress. Research normally runs Monday, Wednesday and Friday; missing or failed runs are never filled with placeholders. The newsletter remains a draft until human approval and is never published automatically.

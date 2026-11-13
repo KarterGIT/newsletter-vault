@@ -1,6 +1,6 @@
 # AI Newsletter Project
 
-A prototype workflow for researching AI news, organizing sources in Obsidian, and drafting a weekly newsletter with ChatGPT. The repository is private; nothing here is published to a website automatically.
+A prototype workflow for researching AI news, organizing sources in Markdown, and drafting a weekly newsletter with ChatGPT. The repository is private; nothing here is published to a website automatically.
 
 ## Start here: review the sample
 
@@ -22,12 +22,12 @@ The scheduled task prompts are kept short. Their detailed rules live in `_system
 
 | File / folder | Purpose |
 | --- | --- |
-| [Newsletter Template.md](Newsletter%20Template.md) | Central Obsidian graph note and newsletter writing style |
+| [Newsletter Template.md](Newsletter%20Template.md) | Central week index and newsletter writing style |
 | [Week 1](Week%201/Week%201.md) | October 5–11; initial research retained for reference |
 | [Week 2](Week%202/Week%202.md) | October 12–18; current automation test week |
 | `Week N/Sources/` | Up to three dated research collections per week |
 | `Week N/Newsletter Draft.md` | One full Sunday draft, created only when written |
-| `Tests/` | Standalone publication-style sample, hidden from the regular graph |
+| `Tests/` | Standalone publication-style sample, separate from weekly drafts |
 | `_system/` | Instructions and trusted source lists; not site content |
 
 Project weeks are counted from **Monday, October 5, 2026**. They are *not* ISO calendar-week numbers.
@@ -36,4 +36,4 @@ Project weeks are counted from **Monday, October 5, 2026**. They are *not* ISO c
 
 **Work in progress.** GitHub research and writing were tested interactively, but an entire Monday–Sunday sequence has **not** yet completed unattended. Week 1 contains earlier research that must be reverified before use; Week 2 contains a manual verified pull, with the first scheduled Sunday draft pending. Failures and missing research are reported, never filled with invented content.
 
-The default Obsidian graph hides internal instructions, tests, and unrelated files. Git/Obsidian plugin settings are retained so vault syncing keeps working. External articles are linked for traceability; company claims and research estimates should be clearly attributed.
+Project navigation uses standard relative Markdown links on GitHub. Local editor settings and plugins are excluded from version control. External articles are linked for traceability; company claims and research estimates should be clearly attributed.

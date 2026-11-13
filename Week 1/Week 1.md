@@ -8,11 +8,11 @@ end_date: 2026-10-11
 # Week 1
 *October 5–11, 2026*
 
-[[Newsletter Template|Newsletter Template]]
+[Newsletter Template](../Newsletter%20Template.md)
 
 <!-- WEEK FILES START -->
 ## Source research
-- [[Week 1/Sources/2026-10-07-wed|Wednesday, October 7]]
+- [Wednesday, October 7](Sources/2026-10-07-wed.md)
 
 ## Newsletter draft
 _No production newsletter was generated for this partial first week. A separate editorial sample is available in the Tests folder, but it is not part of the automated series._

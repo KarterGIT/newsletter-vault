@@ -80,10 +80,10 @@ The strongest AI products may turn out to be the ones that make their limits vis
 
 <!--
 EDITORIAL-ONLY SOURCE TRAIL. REMOVE BEFORE WEBSITE PUBLICATION.
-Weekly hub: [[Week 5/Week 5|Week 5 overview]]
+Weekly hub: [Week 5 overview](Week%205.md)
 Research pulls:
-[[Week 5/Sources/2026-11-02-mon|Monday research]]
-[[Week 5/Sources/2026-11-04-wed|Wednesday research]]
-[[Week 5/Sources/2026-11-06-fri|Friday research]]
+[Monday research](Sources/2026-11-02-mon.md)
+[Wednesday research](Sources/2026-11-04-wed.md)
+[Friday research](Sources/2026-11-06-fri.md)
 Verification notes: OpenAI primary announcements and alignment incident report opened and checked. Reuters reporting on financial filings, chip packaging, USDA and OCC corroborated through accessible dated Reuters search records; some direct Reuters article pages were not retrievable in the final check. The Guardian's November 6 diplomatic report was opened. Company benchmarks, forecasts, financial commitments, proposed agreements and regulatory status remain explicitly attributed. Recheck external links and developments before approval.
 -->

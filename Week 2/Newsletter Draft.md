@@ -87,7 +87,7 @@ In the United States, [eight states filed separate lawsuits against OpenAI on Oc
 This week's model announcements show why businesses want AI agents. The security incidents, engineering bottlenecks and regulatory responses show why deploying them takes more than a strong benchmark score. The next competitive advantage may come from building systems that know not only how to act, but when to stop and ask.
 
 <!-- EDITORIAL-ONLY SOURCE TRAIL: Remove this comment and the YAML front matter before website publication.
-Weekly overview: [[Week 2/Week 2|Week 2 overview]]
-Research pulls: [[Week 2/Sources/2026-10-13-tue|Tuesday, October 13]]; [[Week 2/Sources/2026-10-14-wed|Wednesday, October 14]]; [[Week 2/Sources/2026-10-16-fri|Friday, October 16]]
+Weekly overview: [Week 2 overview](Week%202.md)
+Research pulls: [Tuesday, October 13](Sources/2026-10-13-tue.md); [Wednesday, October 14](Sources/2026-10-14-wed.md); [Friday, October 16](Sources/2026-10-16-fri.md)
 Editorial status: draft, not approved or published. Source verification completed October 18, 2026. Reuters pages were inaccessible directly in the web reader, but the India and eight-state lawsuit reports were cross-checked against accessible syndicated Reuters copies. Other cited sources were reopened on their original sites. Recheck time-sensitive legal developments and pricing immediately before publication.
 -->

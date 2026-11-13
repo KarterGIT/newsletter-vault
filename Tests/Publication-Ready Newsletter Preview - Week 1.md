@@ -98,4 +98,4 @@ New models make the headlines. The systems around them will determine what comes
 
 *This is a standalone, publication-style draft based on news from October 5–11, 2026. Articles are linked in the text. It has not been approved or published.*
 
-<!-- INTERNAL TEST RECORD: This is not part of the scheduled workflow. No Obsidian internal wikilinks, no connected week hub, no site publishing action. Research basis: existing Week 1 research notes, followed by verification of the linked Mistral, Brookings, OpenAI, Quanta, Anthropic, Epoch AI, and Data Center Dynamics publications. -->
+<!-- INTERNAL TEST RECORD: This is not part of the scheduled workflow. No internal note links, no connected week hub, no site publishing action. Research basis: existing Week 1 research notes, followed by verification of the linked Mistral, Brookings, OpenAI, Quanta, Anthropic, Epoch AI, and Data Center Dynamics publications. -->
