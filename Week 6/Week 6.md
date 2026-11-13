@@ -12,6 +12,7 @@ date_range: 2026-11-09 to 2026-11-15
 <!-- WEEK FILES START -->
 - [Monday, November 9 research](Sources/2026-11-09-mon.md)
 - [Wednesday, November 11 research](Sources/2026-11-11-wed.md)
+- [Friday, November 13 research](Sources/2026-11-13-fri.md)
 <!-- WEEK FILES END -->
 
 ## Newsletter draft
