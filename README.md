@@ -1,39 +1,61 @@
-# AI Newsletter Project
+# AI-Assisted Newsletter Research & Editorial Workflow
 
-A prototype workflow for researching AI news, organizing sources in Markdown, and drafting a weekly newsletter with ChatGPT. The repository is private; nothing here is published to a website automatically.
+A personal project that turns dated AI-news research into source-linked newsletter drafts using ChatGPT, reusable editorial instructions, and a structured Markdown archive.
 
-## Start here: review the sample
+![Project preview: research, source checks, editorial drafting, and a human approval gate](portfolio/preview.png)
 
-**[Read the publication-style newsletter sample (October 5–11)](Tests/Publication-Ready%20Newsletter%20Preview%20-%20Week%201.md)**
+## View the work
 
-This standalone sample shows the intended **writing and editorial direction**. It's deliberately not connected to the real weekly drafts. It is **not a published issue**.
+- **[Read the featured newsletter](portfolio/newsletter-sample.md)** - an edited portfolio edition covering November 2-8, 2026, checked against accessible primary sources on November 13.
+- **[Open the portfolio PDF](portfolio/ai-newsletter-portfolio.pdf)** - a project overview and clean newsletter sample.
+- **[Inspect the source checks](portfolio/source-checks.md)** - the evidence behind the featured edition and the limits of the review.
 
-Feedback would be especially useful on the target audience, story selection, depth, tone, overall length, and whether the newsletter feels close to ready for a website.
+## What the project demonstrates
+
+The workflow separates research collection, story selection, drafting, and publication approval. Sources stay attached to claims, company-reported results stay attributed, and internal research stays separate from reader-facing copy.
+
+**Project role:** owner and director of a personal AI-assisted workflow, developed through iterative instructions and review. ChatGPT assists research, organization, drafting, and portfolio preparation. The included files make the method and outputs inspectable.
+
+**Skills demonstrated:** prompt and workflow design, research organization, source tracing, editorial structure, and Markdown documentation.
+
+## Evidence in the repository
+
+Snapshot as of **November 13, 2026**:
+
+| Evidence | Where to inspect it |
+| --- | --- |
+| Research organized across 6 project weeks | [Week index](Newsletter%20Template.md#weeks) |
+| 16 dated source collections | Each `Week N/Sources/` folder |
+| 4 complete weekly drafts | [Week 2](Week%202/Newsletter%20Draft.md), [Week 3](Week%203/Newsletter%20Draft.md), [Week 4](Week%204/Newsletter%20Draft.md), [Week 5](Week%205/Newsletter%20Draft.md) |
+| Reusable research and editorial rules | [`_system/`](_system/) |
+| A clean, source-checked portfolio edition | [Featured sample](portfolio/newsletter-sample.md) |
+
+These are counts of existing files, not readership, revenue, or time-saving claims.
 
 ## How it works
 
-1. **Research, Monday / Wednesday / Friday, 5 PM Eastern.** ChatGPT searches credible original sources, opens articles, checks dates and claims, filters duplicates, and saves verified notes. It doesn't make empty placeholder notes when research fails.
-2. **Draft, Sunday, 5 PM Eastern.** ChatGPT revisits sources, selects important stories, and writes a reader-facing newsletter with a strong introduction, linked articles, natural explanation, and a closing takeaway.
-3. **Human review.** The issue stays marked `draft` until someone checks accuracy, links, format and writing. No automatic publication.
+1. **Collect:** the intended research cadence is Monday, Wednesday, and Friday at 5 PM Eastern. Research is saved in dated notes and compared with earlier collections to reduce duplication.
+2. **Check and select:** inspect original sources, publication dates, significant figures, and attribution; distinguish announced plans from completed results.
+3. **Draft:** the Sunday instructions call for a coherent newsletter with a clear introduction, selective stories, linked evidence, and a closing perspective.
+4. **Approve:** drafts require human approval before publication. The repository does not automatically post issues to a website or email list.
 
-The scheduled task prompts are kept short. Their detailed rules live in `_system/routine-prompt.md`, `_system/issue-prompt.md` and `_system/sources.md`; the publication style is in `Newsletter Template.md`.
+## Explore the workflow
 
-## Where the files live
-
-| File / folder | Purpose |
+| File or folder | Purpose |
 | --- | --- |
-| [Newsletter Template.md](Newsletter%20Template.md) | Central week index and newsletter writing style |
-| [Week 1](Week%201/Week%201.md) | October 5–11; initial research retained for reference |
-| [Week 2](Week%202/Week%202.md) | October 12–18; current automation test week |
-| `Week N/Sources/` | Up to three dated research collections per week |
-| `Week N/Newsletter Draft.md` | One full Sunday draft, created only when written |
-| `Tests/` | Standalone publication-style sample, separate from weekly drafts |
-| `_system/` | Instructions and trusted source lists; not site content |
+| [Newsletter Template.md](Newsletter%20Template.md) | Week index and reader-facing editorial standard |
+| `Week N/Sources/` | Dated research collections |
+| `Week N/Newsletter Draft.md` | Weekly editorial draft with source trail |
+| [_system/routine-prompt.md](_system/routine-prompt.md) | Research instructions and file-update rules |
+| [_system/issue-prompt.md](_system/issue-prompt.md) | Newsletter production instructions |
+| [_system/sources.md](_system/sources.md) | Source-selection and verification policy |
+| [portfolio/](portfolio/) | Featured edition, PDF, preview, and source-check record |
+| [Tests/](Tests/) | Earlier standalone writing samples |
 
-Project weeks are counted from **Monday, October 5, 2026**. They are *not* ISO calendar-week numbers.
+## Scope and current status
 
-## Current status
+This is a **personal portfolio prototype** with inspectable research and drafting outputs. Research currently extends through Week 6; the latest complete weekly draft is Week 5. The featured portfolio edition was prepared separately and does not replace the historical draft.
 
-**Work in progress.** GitHub research and writing were tested interactively, but an entire Monday–Sunday sequence has **not** yet completed unattended. Week 1 contains earlier research that must be reverified before use; Week 2 contains a manual verified pull, with the first scheduled Sunday draft pending. Failures and missing research are reported, never filled with invented content.
+The automation schedule is managed outside this repository. End-to-end unattended reliability, delivery time, readership, and business impact have not been measured. The featured edition received a fresh source check; the historical archive has not all been reverified for publication.
 
-Project navigation uses standard relative Markdown links on GitHub. Local editor settings and plugins are excluded from version control. External articles are linked for traceability; company claims and research estimates should be clearly attributed.
+Project Week 1 begins **October 5, 2026**; weeks advance in seven-day intervals. Navigation uses standard GitHub Markdown links. Local Obsidian settings and plugins are ignored by Git.
