@@ -13,7 +13,8 @@ date_range: 2026-11-16 to 2026-11-22
 - [Monday, November 16 research](Sources/2026-11-16-mon.md)
 - [Wednesday, November 18 research](Sources/2026-11-18-wed.md)
 - [Friday, November 20 research](Sources/2026-11-20-fri.md)
+- [Newsletter draft](Newsletter%20Draft.md)
 <!-- WEEK FILES END -->
 
 ## Newsletter draft
-Pending Sunday editorial draft. No placeholder file created.
+[Read the Week 7 newsletter draft](Newsletter%20Draft.md). Status: draft, awaiting human review.
