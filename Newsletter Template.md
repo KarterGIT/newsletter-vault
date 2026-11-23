@@ -16,6 +16,7 @@ This is the central template for writing weekly AI newsletters. Each week has it
 - [Week 5 · November 2–8, 2026](Week%205/Week%205.md)
 - [Week 6 · November 9–15, 2026](Week%206/Week%206.md)
 - [Week 7 · November 16–22, 2026](Week%207/Week%207.md)
+- [Week 8 · November 23–29, 2026](Week%208/Week%208.md)
 <!-- WEEKS END -->
 
 ## Newsletter writing format
