@@ -12,6 +12,7 @@ end_date: 2026-11-29
 ## Research and draft
 <!-- WEEK FILES START -->
 - [Monday, November 23 research](Sources/2026-11-23-mon.md)
+- [Wednesday, November 25 research](Sources/2026-11-25-wed.md)
 
 Newsletter draft: pending Sunday editorial preparation.
 <!-- WEEK FILES END -->
